@@ -3,6 +3,12 @@ Create a Super class named Animal which has variables (private boolean vegetaria
 String eats, private int noOfLegs), a parameterized Constructor, setter methods, getter
 methods for all variables. It also has methods (public boolean isVegetarian(), public void
 setNoOfLegs(int noOfLegs)).
+
+
+This super class has three sub class named Rabbit, cat and dog. These three classes can
+access the properties of the super class and has variable (String color), setter methods,
+getter methods.
+
 */
 
 package stateOfArt;
@@ -56,3 +62,4 @@ public class Animal {
     
     
 }
+
