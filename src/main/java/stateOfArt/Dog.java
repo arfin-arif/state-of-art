@@ -5,13 +5,14 @@
 package stateOfArt;
 
 class Dog extends Animal{
-String color;
-    public Dog(boolean vegetarian, String eats, int noOfLegs) {
-        super(vegetarian, eats, noOfLegs);
+private String color;
+
+    public String getColor() {
+        return color;
     }
-   public void setColor (String color){
-            color= color;
-            System.out.println("The color of the Dog is  : "+color);
-        }
-    
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+   
 }

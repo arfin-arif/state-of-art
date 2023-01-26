@@ -9,44 +9,70 @@ package stateOfArt;
 
 public class Main {
   
-    public static void main(String[] args) {
+    public static void main(String[] args) {       
         
+//        createing object of Rabbit class
+        Rabbit rab = new Rabbit(); 
+        rab.setVegetarian(true);
+        rab.setEats("Grass");
+        rab.setNoOfLegs(2);
+        rab.setColor("White");
         
-//        Rabbit
-        Rabbit rab = new Rabbit(true, "grass", 2);
-        boolean rabVege= rab.getVegetarian();
-        String rabEat = rab.getEats();
-        int rabLeg = rab.getnoOfLegs();
-        rab.setColor("white and black");
-        
-            System.out.println("Is Rabbit  Vegetarian: "+ rabVege);
-            System.out.println(" Rabbit  Eats: "+ rabEat);
-            System.out.println(" Rabbit  has "+ rabLeg +" legs");
+           // printing 
+            System.out.println("Is Rabbit  Vegetarian: "+ rab.isVegetarian());
+            System.out.println("Rabbit  Eats : "+ rab.getEats());
+            System.out.println(" Dog  has "+ rab.getNoOfLegs()+" legs");
+            System.out.println(" Color of the Dog : "+ rab.getColor());
             System.out.println();
             
 //            cat 
-        Cat cat = new Cat(false, "meet", 4);
-        boolean catVege= cat.getVegetarian();
-        String catEat = cat.getEats();
-        int catLeg = cat.getnoOfLegs();
+        Cat cat = new Cat();
+        cat.setVegetarian(false);
+         cat.setEats("fish");
+         cat.setNoOfLegs(4);
         cat.setColor("White");
         
-            System.out.println("Is Cat  Vegetarian: "+ catVege);
-            System.out.println(" Cat  Eats: "+ catEat);
-            System.out.println(" Cat  has "+ catLeg +" legs");
+            System.out.println("Is Cat  Vegetarian: "+ cat.isVegetarian());
+            System.out.println(" Cat  Eats: "+ cat.getEats());
+            System.out.println(" Cat  has "+ cat.getNoOfLegs() +" legs");
+             System.out.println(" Color of the rabbit : "+ cat.getColor());
             System.out.println();
-//            Dog 
-        Dog dog = new Dog(false, "garbeg", 4);
-        boolean dogVege= dog.getVegetarian();
-        String dogEat = dog.getEats();
-        int dogLeg = dog.getnoOfLegs();
-        dog.setColor("Brown");
-            System.out.println("Is Dog  Vegetarian: "+ dogVege);
-            System.out.println(" Dog  Eats: "+ dogEat);
-            System.out.println(" Dog  has "+ dogLeg +" legs");
-
             
-          
+////            Dog 
+        Dog dog = new Dog();
+     dog.setVegetarian(false);
+         dog.setEats("Meet");
+         dog.setNoOfLegs(4);
+        dog.setColor("Black");
         
+            System.out.println("Is Dog Vegetarian: "+ dog.isVegetarian());
+            System.out.println(" Dog  Eats: "+ dog.getEats());
+            System.out.println(" Dog  has "+ dog.getNoOfLegs() +" legs");
+             System.out.println(" Color of the Dog: "+ dog.getColor());
+            System.out.println();
+ 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

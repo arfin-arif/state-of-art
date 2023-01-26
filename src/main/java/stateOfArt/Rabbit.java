@@ -4,16 +4,15 @@
  */
 package stateOfArt;
 
-
-
 class Rabbit extends Animal{
-String color;
-    public Rabbit(boolean vegetarian, String eats, int noOfLegs) {
-        super(vegetarian, eats, noOfLegs);
-    } 
-    
-        public void setColor (String color){
-            color= color;
-            System.out.println("The color of the Rabit is  : "+color);
-        } 
+   private String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+      
 }
