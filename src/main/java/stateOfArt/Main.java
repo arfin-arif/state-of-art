@@ -13,37 +13,37 @@ public class Main {
         
 //        createing object of Rabbit class
         Rabbit rab = new Rabbit(); 
-        rab.setVegetarian(true);
-        rab.setEats("Grass");
-        rab.setNoOfLegs(2);
-        rab.setColor("White");
+            rab.setVegetarian(true); // accesing superclass methods 
+            rab.setEats("Grass");        // using refrence variable
+            rab.setNoOfLegs(4);
+            rab.setColor("White");
         
            // printing 
             System.out.println("Is Rabbit  Vegetarian: "+ rab.isVegetarian());
             System.out.println("Rabbit  Eats : "+ rab.getEats());
-            System.out.println(" Dog  has "+ rab.getNoOfLegs()+" legs");
-            System.out.println(" Color of the Dog : "+ rab.getColor());
+            System.out.println(" Rabbit  has "+ rab.getNoOfLegs()+" legs");
+            System.out.println(" Color of the Rabbit : "+ rab.getColor());
             System.out.println();
             
-//            cat 
+//        createing object of Cat class
         Cat cat = new Cat();
-        cat.setVegetarian(false);
+         cat.setVegetarian(false);
          cat.setEats("fish");
          cat.setNoOfLegs(4);
-        cat.setColor("White");
+         cat.setColor("White");
         
             System.out.println("Is Cat  Vegetarian: "+ cat.isVegetarian());
             System.out.println(" Cat  Eats: "+ cat.getEats());
             System.out.println(" Cat  has "+ cat.getNoOfLegs() +" legs");
-             System.out.println(" Color of the rabbit : "+ cat.getColor());
+            System.out.println(" Color of the Cat : "+ cat.getColor());
             System.out.println();
             
-////            Dog 
+//        createing object of Dog class
         Dog dog = new Dog();
-     dog.setVegetarian(false);
+         dog.setVegetarian(false);
          dog.setEats("Meet");
          dog.setNoOfLegs(4);
-        dog.setColor("Black");
+         dog.setColor("Black");
         
             System.out.println("Is Dog Vegetarian: "+ dog.isVegetarian());
             System.out.println(" Dog  Eats: "+ dog.getEats());

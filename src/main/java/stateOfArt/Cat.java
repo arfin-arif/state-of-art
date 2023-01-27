@@ -6,11 +6,11 @@ package stateOfArt;
 
 class Cat extends Animal{
 private String color;
-
+    //getter method for color
     public String getColor() {
         return color;
     }
-
+    //setter method for color
     public void setColor(String color) {
         this.color = color;
     }

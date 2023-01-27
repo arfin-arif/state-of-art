@@ -25,32 +25,31 @@ public class Animal {
         this.eats=eats;
         this.noOfLegs=noOfLegs;
       }
-
+//getter method for vegetarian
     public boolean isVegetarian() {
         return vegetarian;
     }
-
+//setter method for vegetarian
     public void setVegetarian(boolean vegetarian) {
         this.vegetarian = vegetarian;
     }
-
+//getter method for eats
     public String getEats() {
         return eats;
     }
-
+//setter method for eats
     public void setEats(String eats) {
         this.eats = eats;
     }
-
+//getter method for noOfLegs
     public int getNoOfLegs() {
         return noOfLegs;
     }
-
+//setter method for noOfLegs
     public void setNoOfLegs(int noOfLegs) {
         this.noOfLegs = noOfLegs;
     }
             
-    
-    
+     
 }
 
